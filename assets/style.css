@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+body {
+	background-color: lightgrey;
+}
+
+header{
+	background-color: blue;
+	color: white;
+	padding: 20px;
+}
+
+header h2 {
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+
+.div-utama{
+	max-width: 1080px;
+	margin: 20px auto;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: purple;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+.navigasi li a:hover {
+	background-color: red;
+	transition-duration: 2s;
+}
+
+.menu-kiri {
+	width: 780px;
+	float: left;
+	margin-right: 10px;
+}
+ 
+.menu-kanan {
+	width: 250px;
+	float: left;
+	background-color: turquoise;
+}
+
+
+.kotak {
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.kotak h3 {
+	color: black;
+	text-align: left;
+	margin-bottom: 12px;
+	border-radius: 20px;
+}
+
+.kotak h4 {
+	color: black;
+	text-align: left;
+	margin-bottom: 12px;
+	border-radius: 20px;
+}
+
+.tombol {
+	text-decoration: none;
+	padding: 10px;
+	width: 120px;
+	color: white;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.tombol:hover {
+	background-color: black;
+	transition-duration: 2s;
+}
+
+
+.tombol-lengkap {
+	background-color: green;
+}
+
+
+.berita ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	color: black;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.berita ul li a:hover {
+	color: crimson;
+}
+
+footer {
+	clear: both;
+	background-color: blue;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+/*ini tampilan untuk layar handphone*/
+@media screen and (max-width:780px){
+	header h2, header p{
+		text-align: center;
+}
+
+
+
+
+
